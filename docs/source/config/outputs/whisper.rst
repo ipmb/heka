@@ -31,7 +31,7 @@ Config:
     Default specification for new whisper db archives. Should be a sequence of
     3-tuples, where each tuple describes a time interval's storage policy:
     [<offset> <# of secs per datapoint> <# of datapoints>] (see `whisper docs
-    <graphite.readthedocs.org/en/latest/whisper.html>`_ for more info). Defaults
+    <http://graphite.readthedocs.org/en/latest/whisper.html>`_ for more info). Defaults
     to:
 
     .. code-block:: ini
